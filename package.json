@@ -1,0 +1,32 @@
+{
+  "name": "lambda-starter-kit",
+  "version": "1.0.0",
+  "description": "A good starting point for AWS lambda function",
+  "main": "./index.js",
+  "author": "Ryan Kan <ryan@ninjabanana.com>",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/ryanwkan/typescript-lambda-starter-kit",
+  "scripts": {
+    "lint": "tslint -p . -c tslint.json",
+    "pretest": "tsc",
+    "test": "mocha",
+    "prepare": "tsc"
+  },
+  "devDependencies": {
+    "@semantic-release/gitlab-config": "^4.0.0",
+    "@types/chai": "^4.1.2",
+    "@types/lodash": "^4.14.68",
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.56",
+    "aws-sdk": "^2.41.0",
+    "chai": "^4.0.2",
+    "mocha": "^3.2.0",
+    "semantic-release": "^15.10.6",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
