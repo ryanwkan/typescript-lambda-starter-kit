@@ -6,7 +6,6 @@ const event = {
 }
 
 describe('index', () => {
-
     describe('#handler', () => {
         it('should invoke callback', (cb) => {
             handler(event, {}, cb)
